@@ -19,4 +19,4 @@ jobs:
       - name: Run tests  
         run: |
           cd homeworks/hw1/
-          python -m unittest discover -s tests -p "*.py"
+          python -m  unittest tests/test.py
